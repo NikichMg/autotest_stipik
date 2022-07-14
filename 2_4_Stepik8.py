@@ -32,7 +32,7 @@ try:
 
 	# вводим результат в поле ввода
 	input_answer = browser.find_element(By.XPATH, '//*[@id="answer"]')
-	input_answer.send_keys(answer)
+	input_answer.send_keys(answer) 
 
 	# нажимаем на кнопку
 	send_button = browser.find_element(By.XPATH, "//*[@id='solve']")
