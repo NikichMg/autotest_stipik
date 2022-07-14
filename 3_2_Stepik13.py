@@ -39,6 +39,6 @@ class TestSite(TestCase):
         self.assertEqual(welcome_text, "Congratulations! You have successfully registered!")
 
 
-
+ 
 if __name__ == "__main__":
     main()
