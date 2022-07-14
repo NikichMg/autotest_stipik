@@ -30,5 +30,5 @@ welcome_text_elt = browser.find_element(By.TAG_NAME, "h1")
 welcome_text = welcome_text_elt.text
 
 # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-assert "Congratulations! You have successfully registered!" == welcome_text
+assert "Congratulations! You have successfully registered!" == welcome_text 
 
