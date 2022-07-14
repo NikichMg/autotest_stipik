@@ -25,7 +25,7 @@ try:
     file_path = os.path.join(current_dir, "test.txt")
 
     # посылаем этот файл
-    file_button = browser.find_element(By.XPATH, "//*[@id='file']")
+    file_button = browser.find_element(By.XPATH, "//*[@id='file']") 
     file_button.send_keys(file_path)
 
     button = browser.find_element(By.XPATH, "//button")
