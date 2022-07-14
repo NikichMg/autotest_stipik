@@ -25,4 +25,4 @@ def test_exception2():
         browser.quit()
 
 if __name__ == "__main__":
-    main()
+    main() 
