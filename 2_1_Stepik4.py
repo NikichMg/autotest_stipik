@@ -21,7 +21,7 @@ try:
     option2 = browser.find_element(By.XPATH, "//*[@id='robotsRule']")
     option2.click()
 
-    button = browser.find_element(By.XPATH, "//button")
+    button = browser.find_element(By.XPATH, "//button") 
     button.click()
 
 finally:
