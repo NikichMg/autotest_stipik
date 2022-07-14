@@ -18,7 +18,7 @@ try:
     browser.switch_to.window(second_window)
 
     x_elements = browser.find_element(By.XPATH, "//*[@id='input_value']")
-    y = calc(x_elements.text)
+    y = calc(x_elements.text) 
     input1 = browser.find_element(By.XPATH, '//*[@id="answer"]')
     input1.send_keys(y)
 
