@@ -28,7 +28,7 @@ try:
 #проверяем значение атрибута disabled у кнопки Submit после таймаута
     #time.sleep(10)
     #button_disabled = button.get_attribute("disabled")
-    #print("value of button Submit after 10sec: ", button_disabled)
+    #print("value of button Submit after 10sec: ", button_disabled) 
     #assert button_disabled is not None
 
 finally:
